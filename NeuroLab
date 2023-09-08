@@ -1,4 +1,5 @@
 ## Assignment Part-1
+
 Q1. Why do we call Python a general-purpose and high-level programming language?
 Python is a general-purpose programming language as it is built for a wide variety of application domains. It’s designed to be used in many applications like data science, web development, automation, etc.
 It’s a high-level programming language as it emphasizes code readability with significant indentation. It is dynamically typed and garbage–collected. It incorporates modules, exceptions, and classes. It is interpreted, interactive, procedural, and functional.
@@ -47,16 +48,20 @@ Operators are specific symbols that indicate that some sort of computation shoul
 Q15. What is difference between / and // operators?
 / Operators used for float division and // is for integer division.
 
-
-
 Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
-
 name – “iNeuron” * 3
 print(name)
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+number = int (input("Enter a number = "))
+if number % 2 :
+     print("Number is Even")
+else:
+     print("Number is Odd")
+
 
 Q18. What are boolean operator?
 These operators are result in the Boolean values of True and False. These include and, or and not.
@@ -87,6 +92,13 @@ Q21. What is use of 'if', 'elif' and 'else' keywords?
 These are conditional statements which provide in decision making that is required to execute code based on particular conditions. It helps to automate that decision process.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+age = int (input("Enter your age = "))
+
+if age >= 18:
+    print("I can vote")
+else:
+    print("I can't vote")   
+
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
