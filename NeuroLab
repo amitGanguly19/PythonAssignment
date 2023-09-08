@@ -21,9 +21,6 @@ We can take input by using the INPUT function which is INPUT () from the user.
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
 By default, input returns a string.
 
-
-
-
 Q8. What is type casting?
 A method used to change the variable values declared in a certain data type into different data types to match the operation required to be performed by the code snippet.
 
@@ -84,7 +81,6 @@ a = 1 or 0 or 0
 print(a) 
 
 ```
-
 Q20. What are conditional statements in Python?
 Statements like if , else and elif constructs that allow to control the flow of the program based on condition that is specified. They provide a way to make a decision.
 
